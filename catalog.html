@@ -7,9 +7,9 @@
   <body>
     <header class="main-header">
       <nav class="main-navigation">
-          <a class="main-header-logo" href="index.html">
-          <img src="img/index-logo.svg" width="368" height="153" alt="Логотип города Седона">
-          </a>
+      <a class="main-header-logo" href="index.html">
+        <img src="img/index-logo.svg" width="368" height="153" alt="Логотип города Седона">
+     </a>
         <ul class="site-navigation">
           <li><a href="info.html">Информация</a></li>
           <li><a href="photos.html">Фото и видео</a></li>
@@ -18,23 +18,36 @@
         </ul> 
       </nav>
     </header>
-    <main class="container">
-            <h1 class="page-title">Hotels</h1>
+    <main>
+        
+        </form>
+      </main>
+          <h1 class="page-title">Hotels</h1>
             <section class="catalog">
-                    <h2 class="visually-hidden">Hotels</h2>
+                <h2 class="visually-hidden">Hotels</h2>
                     <ul class="catalog-list">
-                            <li>amara resort & spa</li>
-                            <li>desert quail inn</li>
-                            <li>villas at poco diablo</li>
+                        <li>amara resort & spa</li>
+                        <li>desert quail inn</li>
+                        <li>villas at poco diablo</li>
+                    </ul>
+                          <form action="/echo" method="post">
+                            <label for="search">Название города</label>
+                            <!-- Поле для поиска -->
+                            <input type="search" name="search" id="search">
+                            <div class="buttons">
+                              <input type="submit" value="Забронировать">
+                            </div>
+                          </form>
+                        </main>
                             <p class="catalog-item-price">
-                                    <b>2 900 ₽</b>
-                                    <a class="button" href="#">Подробнее</a>
+                                <b>2 900 ₽</b>
+                                 <a class="button" href="#">Подробнее</a>
                                   </p>
                                     
                                         
                                         
                             
-                        </ul>
+                        
                   </section>  
           </main>
           <footer class="main-footer">
@@ -48,6 +61,6 @@
                       </div>
                
                 <p class="footer-copyright">
-                        <b>Разработано:</b> <a class="button" href="https://htmlacademy.ru">HTML Academy</a>
-                      </p>
+                    <b>Разработано:</b> <a class="button" href="https://htmlacademy.ru">HTML Academy</a>
+               </p>
               </footer>

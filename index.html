@@ -19,18 +19,36 @@
       </nav>
     </header>
     <main class="container">
+      <section class="picture">
       <div>
         Welcome to gorgeous
       </div>
-      </h1>Седона</h1> 
+      <h1>Седона</h1>
+    </section>
+    <section class="search-title">
+      <p class="search-title">
+        Заинтересовались?
+      </p>
+      <p class="search-description">
+        Укажите предполагаемые даты поездки и мы покажем вам лучшие предложения гостиниц в седоне
+      </p>
+    </section>
+    <form action="/echo" method="post">
+      <label for="search">Название города</label>
+      <!-- Поле для поиска -->
+      <input type="search" name="search" id="search">
+      <div class="buttons">
+        <input type="submit" value="Найти">
+      </div>
     </main>
     <footer class="main-footer">
-      <div class="footer-info">
-     Седона-небольшой городок в Аризоне, заслуживающий большего!
-      </div>
-      <div>
-        Рассмотрим 5 причин, по которым Седона круче,чем Гранд Каньон
-      </div>
+       <section class="advantages">
+          <p class="advantages-title">
+            Седона - небольшой городок в Аризоне,заслуживающий большего!
+          </p>
+          <p class="advantages-description">
+            Рассмотрим 5 причин, по которым Седона круче чем Гранд каньон!
+          </p>
     </footer>
   </body>
 </html>
