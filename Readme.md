@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Артем Васильев](https://up.htmlacademy.ru/htmlcss/25/user/979419).
-* Наставник: [Сергей Попенко](https://htmlacademy.ru/profile/id66243).
+* Наставник: [Дмитрий Мишагин](https://htmlacademy.ru/profile/id118967).
 
 ---
 
