@@ -14,14 +14,19 @@
           <li><a href="info.html">Информация</a></li>
           <li><a href="photos.html">Фото и видео</a></li>
           <li><a href="map.html">Карта штата</a></li>
-          <li><a href="hotels.html">Гостиницы</a></li>
+        </ul>
+        <ul class="user-navigation">
+          <li>
+            <a class="hotels-link" href="catalog.html">Гостиницы
+            </a>
+          </li>
         </ul> 
       </nav>
     </header>
     <main class="container">
       <section class="welcome">
          <h1 class="welcome-title visually-hidden">Добро пожаловать в Седону</h1>
-            <img class="welcome-image" src="img/background photo.jpg" width="1200" height="800"
+            <img class="welcome-image" src="img/background-photo.jpg" width="1200" height="800"
              alt="Добро пожаловать в Седону"> 
       </section>
     <section class="advantages">
@@ -41,7 +46,15 @@
       </p>
        <a class="search-hotels-button button" href="#">
           Поиск гостиницы в Седоне
-        </a>
+       </a>
+     <h3>Поиск гостиницы в Седоне</h3>
+       <form action="https://echo.htmlacademy.ru" method="post">
+        ДАТА ЗАЕЗДА: <input type="text" name="date" value="" placeholder="24 АПРЕЛЯ 2017"><br>
+        ДАТА ВЫЕЗДА: <input type="text" name="date" value="" placeholder="4 ИЮЛЯ 2017"><br>
+        ВЗРОСЛЫЕ: <br>
+        <button class="button" type="submit">НАЙТИ</button>
+       
+       </form>
         <!--   Место для формы поиска   -->
       </section>
     </main>
