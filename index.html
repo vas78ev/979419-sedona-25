@@ -14,12 +14,7 @@
           <li><a href="info.html">Информация</a></li>
           <li><a href="photos.html">Фото и видео</a></li>
           <li><a href="map.html">Карта штата</a></li>
-        </ul>
-        <ul class="user-navigation">
-          <li>
-            <a class="hotels-link" href="catalog.html">Гостиницы
-            </a>
-          </li>
+          <li><a href="catalog.html">Гостиницы</a></li>
         </ul> 
       </nav>
     </header>
@@ -49,10 +44,24 @@
        </a>
      <h3>Поиск гостиницы в Седоне</h3>
        <form action="https://echo.htmlacademy.ru" method="post">
-        ДАТА ЗАЕЗДА: <input type="text" name="date" value="" placeholder="24 АПРЕЛЯ 2017"><br>
-        ДАТА ВЫЕЗДА: <input type="text" name="date" value="" placeholder="4 ИЮЛЯ 2017"><br>
-        ВЗРОСЛЫЕ: <br>
-        <button class="button" type="submit">НАЙТИ</button>
+        <p>
+        <label for="user-date-1">Дата заезда</label>
+        <input id="user-date-1" type="text" name="arrival-date" value="" placeholder="24 апреля 2017"><br>
+        <button>Календарь <img src="calend.png" alt=""></button>
+        </p>
+        <p>
+        <label for="user-date-2">Дата выезда</label>
+        <input id="user-date-2" type="text" name="departure-date" value="" placeholder="4 июля 2017"><br>
+        <button>Календарь <img src="calend.png" alt=""></button>
+         </p>
+        Взрослые: <input type="button" value="+" onClick="change('amount',0,10, 1);"/>
+        <input id="amount" type="text" value="2"/>
+        <input type="button" value="-" onClick="change('amount',0,10,-1);"/>
+
+        Дети: <input type="button" value="+" onClick="change('amount',0,10, 1);"/>
+        <input id="amount" type="text" value="0"/>
+        <input type="button" value="-" onClick="change('amount',0,10,-1);"/><br>
+        <button class="button" type="submit">Найти</button>
        
        </form>
         <!--   Место для формы поиска   -->
