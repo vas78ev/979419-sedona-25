@@ -3,6 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class="main-header">
@@ -35,33 +38,38 @@
     </section>
     <section class="search-hotels">
       <h2 class="search-hotels-title">Поиск отеля</h2>
-      <p class="search-hotels-heading">Заинтересовались?</p>
-      <p class="search-hotels-description">
+       <p class="search-hotels-heading">Заинтересовались?</p>
+       <p class="search-hotels-description">
         Укажите предполагаемые даты поездки и мы покажем вам лучшие предложения гостиниц в седоне
-      </p>
+       </p>
        <a class="search-hotels-button button" href="#">
           Поиск гостиницы в Седоне
        </a>
-     <h3>Поиск гостиницы в Седоне</h3>
+      <h3>Поиск гостиницы в Седоне</h3>
        <form action="https://echo.htmlacademy.ru" method="post">
         <p>
-        <label for="user-date-1">Дата заезда</label>
-        <input id="user-date-1" type="text" name="arrival-date" value="" placeholder="24 апреля 2017"><br>
-        <button>Календарь <img src="calend.png" alt=""></button>
+         <label for="user-date-1">Дата заезда</label>
+         <input id="user-date-1" type="text" name="arrival-date" value="" placeholder="24 апреля 2017"><br>
+         <input type="button" value="Календарь">
         </p>
         <p>
-        <label for="user-date-2">Дата выезда</label>
-        <input id="user-date-2" type="text" name="departure-date" value="" placeholder="4 июля 2017"><br>
-        <button>Календарь <img src="calend.png" alt=""></button>
-         </p>
-        Взрослые: <input type="button" value="+" onClick="change('amount',0,10, 1);"/>
-        <input id="amount" type="text" value="2"/>
-        <input type="button" value="-" onClick="change('amount',0,10,-1);"/>
-
-        Дети: <input type="button" value="+" onClick="change('amount',0,10, 1);"/>
-        <input id="amount" type="text" value="0"/>
-        <input type="button" value="-" onClick="change('amount',0,10,-1);"/><br>
-        <button class="button" type="submit">Найти</button>
+         <label for="user-date-2">Дата выезда</label>
+         <input id="user-date-2" type="text" name="departure-date" value="" placeholder="4 июля 2017"><br>
+         <input type="button" value="Календарь">
+        </p>
+          <label for="amount">Взрослые:</label>
+        </p>
+          <input type="button" value="+">
+          <input id="amount" type="text" value="2"/>
+          <input type="button" value="-">
+        </p>
+        <p>
+          <label for="amount-2">Дети:</label>
+          <input type="button" value="+">
+          <input id="amount-2" type="text" value="0"/>
+          <input type="button" value="-"><br>
+          <button class="button" type="submit">Найти</button>
+        </p>
        
        </form>
         <!--   Место для формы поиска   -->
