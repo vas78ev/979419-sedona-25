@@ -2,10 +2,54 @@ body {
     margin: 0;
     padding: 0;
   
-    font-family: "PT Sans Narrow", Arial, sans-serif;
+    font-family: "PT Sans", Arial, sans-serif;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 26px;
     font-weight: 700;
-    color: #ffffff;
+    color: #000000;
     text-transform: uppercase;
+    background-color: #ffffff;
+    background-image: url("img/bg.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
   }
+  a {
+    text-decoration: none;
+  }
+  
+  .main-navigation {
+    font-size: 14px;
+    line-height: 26px;
+    color: #000000;
+  
+    background-color:  #ffffff;
+    
+}
+.site-navigation,
+.user-navigation {
+  list-style: none;
+}
+.site-navigation a,
+.user-navigation a {
+  color:#000000;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus,
+.user-navigation a:hover,
+.user-navigation a:focus {
+  background-color:#242424;
+}
+
+.advantages-heading {
+  text-align: center;
+}
+
+.advantages-heading {
+  font-size: 21px;
+  line-height: 26px;
+}
+.advantages-description {
+  font-size: 14px;
+  line-height: 26px;
+}
