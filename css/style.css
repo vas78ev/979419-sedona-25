@@ -50,6 +50,10 @@ body {
   line-height: 26px;
 }
 .advantages-description {
+  text-align: center;
+}
+
+.advantages-description {
   font-size: 14px;
   line-height: 26px;
 }
