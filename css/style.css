@@ -23,8 +23,8 @@ body {
     color: #000000;
   
     background-color:  #ffffff;
-    
-}
+    text-align: center;
+ }
 .site-navigation,
 .user-navigation {
   list-style: none;
@@ -56,4 +56,51 @@ body {
 .advantages-description {
   font-size: 14px;
   line-height: 26px;
+}
+.button {
+  font: inherit;
+
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+
+  background-color: #000000;
+  border: none;
+}
+.button:hover,
+.button:focus,
+.button:active {
+  background-color: #663d15;
+}
+.search-hotels-heading {
+  text-align: center;
+}
+.search-hotels-description {
+  text-align: center;
+}
+.index-columns {
+  color: #000000;
+
+  background-color: #f8f5f2;
+  background-image: url("img/pattern-light.jpg");
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+.index-columns h2 {
+  font-size: 30px;
+  line-height: 42px;
+}
+.main-footer {
+  color:#000000;
+
+  background-color: #f9fbf6;
+  background-image: url("img/pattern-dark.jpg");
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+.footer-social {
+ color:#81b3d2
+ text-align: center;
 }
