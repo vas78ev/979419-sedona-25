@@ -64,19 +64,24 @@ body {
 }
 .button {
   font: inherit;
-
   text-align: center;
   color: #a9a9a9;
   vertical-align: middle;
   text-transform: uppercase;
-
   background-color: #81b3d2;
   border: none;
 }
-.button:hover,
-.button:focus,
+.button:hover {
+  background-color: #81b3d2;
+  color: #ffffff;
+}
+.button:focus {
+  background-color: #669ec0;
+  color: #ffffff;
+}
 .button:active {
-  background-color: #663d15;
+  background-color: #5496bd;
+  color: #84b4d0;
 }
 .search-hotels-heading {
   text-align: center;
@@ -88,12 +93,55 @@ body {
 .main-footer {
   color:#000000;
 
-  background-color: #f9fbf6;
-  background-image: url("img/pattern-dark.jpg");
+  background-color: #ffffff;
   background-position: 0 0;
   background-repeat: repeat;
+}
+.main-footer-hashtag {
+  color:#000000;
+  font-size: 21px;
+  line-height: 26px;
+  text-align: left;
 }
 .footer-social {
  color:#81b3d2;
  text-align: center;
+ list-style: none;
+}
+.footer-copyright {
+  text-align: right;
+  color:#231f20;
+  background-color: #ffffff;
+}
+
+.footer-copyright .button:hover,
+.footer-copyright .button:focus {
+  color: #98c1da;
+}
+.footer-copyright .button:active {
+  color: #cdcbcc;
+}
+.catalog-list {
+  list-style: none;
+  background-color: #ffffff;
+}
+.catalog-item a {
+  color: #000000;
+}
+
+.catalog-item h3 {
+  color: #000000;
+  font: size 21px;
+  line-height: 26px;
+}
+.hotel-button-information button a {
+  background-color: #81b3d2;
+  color:#ffffff;
+}
+.hotel-button-information button a:hover {
+  background-color: #669ec0;
+}
+.hotel-button-information button a:active {
+  background-color: #5496bd;
+  color: #88b6d1
 }
