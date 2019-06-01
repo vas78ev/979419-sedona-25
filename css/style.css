@@ -5,11 +5,10 @@ body {
     font-family: "PT Sans", Arial, sans-serif;
     font-size: 14px;
     line-height: 26px;
-    font-weight: 700;
+    font-weight: 400;
     color: #000000;
     text-transform: uppercase;
     background-color: #ffffff;
-    background-image: url("img/bg.jpg");
     background-position: top center;
     background-repeat: no-repeat;
   }
@@ -21,6 +20,7 @@ body {
     font-size: 14px;
     line-height: 26px;
     color: #000000;
+    font-weight: 400;
   
     background-color:  #ffffff;
     text-align: center;
@@ -38,11 +38,16 @@ body {
 .site-navigation a:focus,
 .user-navigation a:hover,
 .user-navigation a:focus {
-  background-color:#242424;
+  background-color:#ffffff;
 }
 
 .advantages-heading {
   text-align: center;
+  font-weight: 400;
+
+
+
+
 }
 
 .advantages-heading {
@@ -61,11 +66,11 @@ body {
   font: inherit;
 
   text-align: center;
-  color: #ffffff;
+  color: #a9a9a9;
   vertical-align: middle;
   text-transform: uppercase;
 
-  background-color: #000000;
+  background-color: #81b3d2;
   border: none;
 }
 .button:hover,
@@ -79,19 +84,7 @@ body {
 .search-hotels-description {
   text-align: center;
 }
-.index-columns {
-  color: #000000;
 
-  background-color: #f8f5f2;
-  background-image: url("img/pattern-light.jpg");
-  background-position: 0 0;
-  background-repeat: repeat;
-}
-
-.index-columns h2 {
-  font-size: 30px;
-  line-height: 42px;
-}
 .main-footer {
   color:#000000;
 
@@ -101,6 +94,6 @@ body {
   background-repeat: repeat;
 }
 .footer-social {
- color:#81b3d2
+ color:#81b3d2;
  text-align: center;
 }
