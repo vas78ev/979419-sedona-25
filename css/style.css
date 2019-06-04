@@ -12,6 +12,41 @@ body {
     background-position: top center;
     background-repeat: no-repeat;
   }
+
+  .main-header {
+    margin-bottom: 55px;
+  
+    /* Временно для сетки */
+    min-height: 565px;
+  }
+  .main-header-logo {
+    width: 61px;
+    height: 52px;
+    
+    /* Временно для сетки */
+    display: block;
+  }
+  
+  .site-navigation {
+    margin: 0;
+    padding: 0;
+    
+    list-style: none;
+    
+    /* Временно для сетки */
+    min-height: 70px;
+  }
+  
+  .user-navigation {
+    margin: 0;
+    padding: 0;
+    
+    list-style: none;
+    
+    /* Временно для сетки */
+    min-height: 70px;
+  }
+  
   a {
     text-decoration: none;
   }
@@ -134,14 +169,32 @@ body {
   font: size 21px;
   line-height: 26px;
 }
-.hotel-button-information button a {
+.hotel-button-information {
   background-color: #81b3d2;
   color:#ffffff;
 }
-.hotel-button-information button a:hover {
+.hotel-button-information:hover {
   background-color: #669ec0;
 }
-.hotel-button-information button a:active {
+.hotel-button-information:active {
   background-color: #5496bd;
   color: #88b6d1
+}
+.site-navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.main-footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer-social {
+  text-decoration: none;
+}
+.search-hotels-button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
