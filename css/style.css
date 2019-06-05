@@ -198,3 +198,17 @@ body {
   justify-content: space-around;
   align-items: center;
 }
+
+.search-hotels {
+  width: 578px;
+}
+.search-hotels-heading {
+  width: 438px;
+}
+.advantages-heading {
+  width: 455px;
+}
+.container {
+  width: 1200px;
+  height: 2756px;
+}
