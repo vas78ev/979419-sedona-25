@@ -372,12 +372,13 @@ input[type="radio"].visually-hidden {
   flex-wrap: wrap;
   padding-left: 72px;
   padding-right: 72px;
-  }
 }
 .site-navigation a,
 .user-navigation a {
   display: block;
-  padding: 18px 170px;
+  width: 240px;
+
+  
 
 }
 .user-navigation {
