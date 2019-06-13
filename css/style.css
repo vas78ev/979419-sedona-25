@@ -62,19 +62,19 @@ body {
 .site-navigation-item:nth-child(4n+2) {
   margin-right: 95px;
 }
-.site-navigation-item:hover,
-.site-navigation-item:focus {
-  color: #92bdd8;
+.site-navigation-item a:hover,
+.site-navigation-item a:focus {
+  color: #81b3d2;
 }
-.site-navigation-item:active {
-  color: #b2b2b2;
+.site-navigation-item a:active {
+  color: #9b8d84;
 }  
 
   
   
   a {
     text-decoration: none;
-  }
+}
   
   .main-navigation {
     font-size: 14px;
@@ -84,29 +84,10 @@ body {
   
     background-color:  #ffffff;
     text-align: center;
- }
-.site-navigation,
-.user-navigation {
-  list-style: none;
 }
-.site-navigation a,
-.user-navigation a {
-  color:#000000;
-}
-
-.site-navigation a:hover,
-.site-navigation a:focus,
-.user-navigation a:hover,
-.user-navigation a:focus {
-  background-color:#ffffff;
-}
-
 .advantages-heading {
   text-align: center;
   font-weight: 700;
-
-
-
 
 }
 
@@ -378,13 +359,6 @@ input[type="radio"].visually-hidden {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.site-navigation a,
-.user-navigation a {
-  display: block;
-  width: 240px;
 
-  
-
-}
 
  
