@@ -62,12 +62,16 @@ body {
 .site-navigation-item:nth-child(4n+2) {
   margin-right: 95px;
 }
+.site-navigation-item a {
+ color:#000000 
+}
 .site-navigation-item a:hover,
 .site-navigation-item a:focus {
   color: #81b3d2;
 }
 .site-navigation-item a:active {
-  color: #9b8d84;
+  color: #000000;
+  opacity: 0.3;
 }  
 
   
@@ -88,10 +92,6 @@ body {
 .advantages-heading {
   text-align: center;
   font-weight: 700;
-
-}
-
-.advantages-heading {
   font-size: 21px;
   line-height: 26px;
 }
