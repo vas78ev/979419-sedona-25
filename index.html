@@ -43,34 +43,35 @@
     </div>
     <div class="features-item">
       <div class="features-info">
-      <h2 class="features-title">Настоящий городок</h4>
+      <h4 class="features-title">Настоящий городок</h4>
       <p class="features-text">Седона - не аттракцион для туристов, там течет своя жизнь</p>
     </div>
-    <div class="features-img">
     </div>
+    <div class="features-img">
+    
     </div>
     <div class="specials">
       <div class="specials-item">
         <h4 class="specials-title">Жилье</h4>
         <p class="specials-text">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
-        <div class="specials-img specials-img--house"</div>
-      </div>
+        <div class="specials-item specials-item--house"></div>
+    </div>
+    </div>
       <div class="specials-item">
         <h4 class="specials-title">Еда</h4>
         <p class="specials-text">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
-        <div class="specials-img specials-img--burger"</div></div>
+        <div class="specials-item specials-item--burger"></div>
       </div>
       <div class="specials-item">
         <h4 class="specials-title">Сувениры</h4>
         <p class="specials-text">Не только китайского, но и местного производства!</p>
-        <div class="specials-img specials-img--box"</div>
+        <div class="specials-item specials-item--box"></div>
     </div>
     <div class="features-item features-item--reverse">
         <div class="features-info">  
-        <h4 class="features-title">Там есть мост дьявола</h4>
-        <p class="features-text">Да, по нему можно пройти! Если конечно вы осмелитесь</p>
-    
-    <div class="features-img features-img--bridge">
+        <h4 class="features-title">Там есть мост дьявола></h4>
+        <p class="features-text">Да, по нему можно пройти! Если конечно вы осмелитесь></p>
+        <div class="features-item features-item--bridge">
      </div> 
      </div>
      </div>
@@ -83,33 +84,37 @@
        <a class="search-hotels-button" href="#">
           Поиск гостиницы в Седоне
        </a>
+       <div class="form">
       <h3>Поиск гостиницы в Седоне</h3>
        <form action="https://echo.htmlacademy.ru" method="post">
-        <p>
+        <fieldset class="form-option">
+        <div class="form-arrive">
          <label for="user-date-1">Дата заезда</label>
          <input id="user-date-1" type="text" name="arrival-date" value="" placeholder="24 апреля 2017">
          <button type="button" value="Календарь">Календарь</button>
-        </p>
-        <p>
+        </div>
+        <div class="form-departure">
          <label for="user-date-2">Дата выезда</label>
          <input id="user-date-2" type="text" name="departure-date" value="" placeholder="4 июля 2017">
          <button type="button" value="Календарь">Календарь</button>
-        </p>
-        <p>
+        </div>
+        <div class="form-adults">
           <label for="amount">Взрослые:</label>
           <button type="button">Добавить</button>
           <input id="amount" type="text" value="2"/>
           <button type="button">Удалить</button>
-        </p>
-        <p>
+        </div>
+        <div class="form-children">
           <label for="amount-2">Дети:</label>
           <button type="button">Добавить</button>
           <input id="amount-2" type="text" value="0"/>
           <button type="button">Удалить</button>
           <button class="button" type="submit">Найти</button>
-        </p>
+        </div>
+      </fieldset>
        
        </form>
+       </div>
         <!--   Место для формы поиска   -->
       </section>
     </main>
