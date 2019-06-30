@@ -39,7 +39,7 @@
       <main class="main">
     <div class="description">
       <h1 class="description-title">Седона - небольшой городок в Аризоне, заслуживающий большего!</h1>
-      <p> Рассмотрим 5 причин, по которым Седона круче чем Гранд каньон!</p>
+      <p> Рассмотрим 5 причин, по которым Седона круче, чем Гранд каньон!</p>
     </div>
     <div class="features-item">
       <div class="features-info">
@@ -57,6 +57,7 @@
         <p class="specials-text">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
         <div class="specials-item specials-item--house"></div>
     </div>
+    </div>
     
       <div class="specials-item">
         <h4 class="specials-title">Еда</h4>
@@ -68,7 +69,7 @@
         <p class="specials-text">Не только китайского, но и местного производства!</p>
         <div class="specials-item specials-item--box"></div>
     </div>
-    </div>
+    
     <div class="features-item features-item--reverse">
         <div class="features-info">  
         <h4 class="features-title">Там есть мост дьявола></h4>
@@ -90,38 +91,41 @@
       <h3>Поиск гостиницы в Седоне</h3>
        <form action="https://echo.htmlacademy.ru" method="post">
         <div class="form-item form-item--icons">
-         <label for="arrival-date"class="form-label">Дата заезда</label>
-         <input id="arrival-date" type="text" name="arrival-date" value="" placeholder="24 апреля 2017"class="form-input">
-         <button type="button" value="Календарь"class="form-icon">Календарь</button>
+         <label for="arrival-date" class="form-label">Дата заезда</label>
+         <input id="arrival-date" type="text" name="arrival-date" value="" placeholder="24 апреля 2017" class="form-input">
+         <button type="button" value="Календарь" class="form-icon">Календарь</button>
         </div>
         <div class="form-item form-item--icons">
-         <label for="departure-date-">Дата выезда</label>
+         <label for="departure-date">Дата выезда</label>
          <input id="departure-date" type="text" name="departure-date" value="" placeholder="4 июля 2017" class="form-input">
          <button type="button" class="form-icon" value="Календарь">Календарь</button>
         </div>
         <div class="form-item form-item--half">
           <label for="adults" class="form-label">Взрослые:</label>
           <div class="form-calc calc">
-          <button type="button">Добавить</button>
-          <input id="amount" type="text" value="2"/>
-          <button type="button">Удалить</button>
+          <button type="button" class="calc-btn calc-btn--increase">Добавить</button>
+          <input id="adults" type="text" value="2" class="form-input"/>
+          <button type="button" class="calc-btn calc-btn--decrease">Удалить</button>
         </div>
-        <div class="form-children">
-          <label for="amount-2">Дети:</label>
-          <button type="button"class="calc-btn calc-btn--increase">Добавить</button>
-          <input id="amount-2" type="text" value="0"/>
-          <button type="button">Удалить</button>
-          <button class="button" type="submit">Найти</button>
+        </div>
+        <div class="form-item form-item--half">
+          <label for="children" class="form-label">Дети:</label>
+          <div class="form-calc calc">
+          <button type="button" class="calc-btn calc-btn--increase">Добавить</button>
+          <input id="children" type="text" value="0" class="form-input" />
+          <button type="button" class="calc-btn calc-btn--decrease">Удалить</button>
+          </div>
+        </div>
+          <button type="submit">Найти</button>
           
         </div>
-      
-       
-       </form>
-       </div>
+        
+        
         <!--   Место для формы поиска   -->
       </section>
-    </main>
+       
     <div class="map"></div> 
+    </main>
     <footer class="main-footer">
       <a class="main-footer-hashtag" href="#">
         #VisitSedona
@@ -138,7 +142,7 @@
          <b>Разработано:</b> <a class="button" href="https://htmlacademy.ru">HTML Academy</a>
        </p>
      </footer>
-     </div>
+     
      
   </body>
 </html>
